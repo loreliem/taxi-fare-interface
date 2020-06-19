@@ -3,6 +3,7 @@ const algoliaPlacesApiKey = '5d887bc4178b4e7d18a9a8643e178e60';
 const mapboxApiToken = 'pk.eyJ1IjoibG9yZWxpZW0iLCJhIjoiY2thNWo3YTNqMDBtdDNtbXdpOHVnbG14dSJ9.WEWWmJZjTKBQyhyt1GR3uA';
 const taxiFareApiUrl = 'https://lorelieapptaxifare.herokuapp.com/predict_fare';
 
+
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
   const map = new mapboxgl.Map({
