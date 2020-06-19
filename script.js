@@ -4,6 +4,7 @@ const mapboxApiToken = 'pk.eyJ1IjoibG9yZWxpZW0iLCJhIjoiY2thNWo3YTNqMDBtdDNtbXdpO
 const taxiFareApiUrl = 'https://lorelieapptaxifare.herokuapp.com/predict_fare';
 
 
+
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
   const map = new mapboxgl.Map({
